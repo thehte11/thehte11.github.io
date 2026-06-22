@@ -403,7 +403,7 @@
                 hash = (hash << 5) - hash + fen.charCodeAt(i);
                 hash |= 0;
             }
-            return Math.abs(hash) % 1000000; 
+            return Math.abs(hash) % 10000; 
         }
 
         function onDragStart (source, piece, position, orientation) {
